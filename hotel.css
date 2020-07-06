@@ -1,0 +1,206 @@
+ * {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* header {
+  position: fixed;
+} */
+/* Header-Start */
+header {
+  padding: 0;
+  margin: 0;
+  height: 0;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+  border-bottom: 1px solid black;
+  padding: 0;
+  margin: 0;
+}
+
+header ul li {
+  padding: 1em;
+}
+
+/* header ul li a {
+  text-decoration: none;
+  color: black
+} */
+
+header li:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+/* Header-End */
+
+
+/* Guests*/
+section#guests {
+  margin-top: 4em;
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+div.guestRoom {
+  border: 1px solid black;
+  width: 20%;
+  margin: .25em;
+}
+
+div.room {
+  border-bottom: 1px solid black; 
+  padding: .25em;
+}
+
+div.guestName {
+  padding: 1em;
+  /* height: 1em; */
+}
+
+ul.guests li {
+  list-style-type: none;
+  border: 1px solid black;
+  width: 20%;
+}
+
+/*Guests-End*/
+
+/*Reservations*/
+
+#reservations {
+  display: none;
+}
+
+#reservations form {
+  margin-top: 4em;
+}
+
+#reservations form div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 1em;
+
+}
+
+#reservations form div label {
+  margin: .25em;
+  width: 100%;
+  float: left;
+  clear: both;
+}
+
+#reservations form button {
+  padding: .5em;
+  position: relative;
+  left: 35%;
+
+} 
+
+/* Reservation-End*/
+
+/*Check-in*/
+
+#checkIn {
+  margin-top: 4em;
+  display: none;
+  text-align: center;
+}
+
+#checkIn div ul#guestCheckIn {
+  border: 1px solid black;
+  min-height: 8em;
+  margin: 0 10%;
+  list-style-type: none;
+}
+
+#checkIn output#guestCheckIn div{
+  border: 1px solid black;
+  width: 50%;
+  margin: auto;
+  cursor: pointer;
+}
+
+#checkIn div output#guestInfo ul{
+  border: 1px solid black;
+  min-height: 8em;
+  margin: 0 10%;
+  list-style-type: none;
+  padding: 1em;
+}
+
+/* #checkIn form {
+  display: inline-block;
+  margin: auto;
+  text-align: left;
+} */
+
+#checkIn form ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#checkIn .roomType {
+  margin: 1em;
+  
+}
+
+/* #checkIn h2.chooseRoom {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center; */
+  /* float: left;
+} */
+
+#checkIn select, #checkIn button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+
+/*Check-in END*/
+
+/*Check-out*/
+#checkOut {
+  margin-top: 4em;
+  display: none;
+  text-align: center;
+}
+
+#checkOut output#guestCheckOut div{
+  border: 1px solid black;
+  width: 50%;
+  margin: .1em auto;
+  cursor: pointer;
+}
+
+#checkOut button {
+  display: block;
+  margin: 1em auto;
+}
+
+
+/*Check-out END*/
+
+/*MARKET*/
+
+
+
+/*MARKET END*/
+

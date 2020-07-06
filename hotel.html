@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hotel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hotel.css">
+    <script rel="text/js" src="hotel.js"></script>
+  </head>
+
+<body>
+
+<header>
+
+<ul>
+  <li class="menuItem">Guests</li>
+  <li class="menuItem">Reservations</li>
+  <li class="menuItem">Check-in</li>
+  <li class="menuItem">Check-out</li>
+</ul>
+
+<!-- <ul>
+  <li><a href="#">Guests</a></li>
+  <li><a href="#">Reservations</a></li>
+  <li><a href="#">Check-in</a></li>
+  <li><a href="#">Check-out</a></li>
+  <li><a href="#">Market</a></li>
+</ul> -->
+
+</header>
+
+<section id="guests">
+
+<div class="guestRoom single" id="rm01">
+  <div class="room">Room 1</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom single" id="rm02">
+  <div class="room">Room 2</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom single" id="rm03">
+  <div class="room">Room 3</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom single" id="rm04">
+  <div class="room">Room 4</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom single" id="rm05">
+  <div class="room">Room 5</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom single" id="rm06">
+  <div class="room">Room 6</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom single" id="rm07">
+  <div class="room">Room 7</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom single" id="rm08">
+  <div class="room">Room 8</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom single" id="rm09">
+  <div class="room">Room 9</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom single" id="rm10">
+  <div class="room">Room 10</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom single" id="rm11">
+  <div class="room">Room 11</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom single" id="rm12">
+  <div class="room">Room 12</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom single" id="rm13">
+  <div class="room">Room 13</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom single" id="rm14">
+  <div class="room">Room 14</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom single" id="rm15">
+  <div class="room">Room 15</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom single" id="rm16">
+  <div class="room">Room 16</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom single" id="rm17">
+  <div class="room">Room 17</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom single" id="rm18">
+  <div class="room">Room 18</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom single" id="rm19">
+  <div class="room">Room 19</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom double" id="rm20">
+  <div class="room">Room 20</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom double" id="rm21">
+  <div class="room">Room 21</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom double" id="rm22">
+  <div class="room">Room 22</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom double" id="rm23">
+  <div class="room">Room 23</div>
+  <div class="guestName"></div>
+</div>
+
+<div class="guestRoom double" id="rm24">
+  <div class="room">Room 24</div>
+  <div class="guestName"></div>
+</div>
+
+</section>
+
+<section id="reservations">
+
+<form>
+  <fieldset>
+    <legend>Personal Information</legend>
+    <div>
+  <label>Check-in: </label>
+  <input type="date" class="reservationInput">
+  <label>Check-out: </label>
+  <input type="date" class="reservationInput">
+  <label>First Name: </label>
+  <input type="text" class="reservationInput">
+  <label>Last Name: </label>
+  <input type="text" class="reservationInput">
+  <label>Phone: </label>
+  <input type="tel" class="reservationInput">
+  <label>E-mail: </label>
+  <input type="email" class="reservationInput">
+  <label>Address: </label>
+  <input type="text" class="reservationInput">
+  <label>City: </label>
+  <input type="text" class="reservationInput">
+  <label>State: </label>
+  <input type="text" class="reservationInput">
+  <label>Zipcode: </label>
+  <input type="text" class="reservationInput">
+</div>
+<button id="reservationsButton">Create Reservation</button>
+<button id="guestCreator">Create Registration</button>
+</fieldset>
+</form>
+
+
+
+</section>
+
+<section id="checkIn">
+
+<div>
+
+  <h2>Check Ins</h2>
+
+  <output id="guestCheckIn">
+
+  </output>
+
+  <h3>Guest Information</h3>
+
+  <output id="guestInfo">
+    <ul>
+
+    </ul>
+
+  </output>
+
+  <form>
+
+  <h2>Room Type:</h2>
+
+  <ul>
+    <li><input type="radio" name="roomType" class="roomType" id="radioSingle">Single</li>
+    <li><input type="radio" name="roomType" class="roomType" id="radioDouble">Double</li>
+  </ul>
+    
+  <h2 id="chooseRoom">Choose Room</h2>
+
+  <select id="roomSelect">
+    
+  </select>
+    
+  <button id="buttonCheckIn">Check In</button>
+  </form>
+
+</div>
+
+</section>
+
+<!-- CHECK OUT -->
+
+<section id="checkOut">
+<h2>Check-Out</h2>
+ <!-- Select option for guest  -->
+ <output id="guestCheckOut">
+
+ </output>
+
+ <button id="buttonCheckOut">Check Out</button>
+
+</section>
+
+</body>
+
+</html>
